@@ -1,0 +1,19 @@
+{
+  "name": "jessicafraines.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessicafraines/jessicafraines.github.io"
+  },
+  "author": "jessicafraines <jessicafraines@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessicafraines/jessicafraines.github.io/issues"
+  },
+  "homepage": "https://github.com/jessicafraines/jessicafraines.github.io"
+}

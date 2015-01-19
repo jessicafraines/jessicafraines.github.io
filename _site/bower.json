@@ -1,0 +1,21 @@
+{
+  "name": "jessicafraines.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jessicafraines/jessicafraines.github.io",
+  "authors": [
+    "jessicafraines <jessicafraines@gmail.com>"
+  ],
+  "description": "Portfolio site",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
