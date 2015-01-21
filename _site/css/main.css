@@ -2,14 +2,13 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 img.jessica-img {
-  top: 250px;
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 5px;
+  border: 3px solid white;
+  margin: 0 auto;
 }
  
 .footer {
   margin-top: .5em;
+  color: white;
 }
 
 .navbar-fixed-bottom {
@@ -17,28 +16,66 @@ img.jessica-img {
 }
 
 .navbar-brand {
-  font-family: 'Bad Script', cursive;
-  
+  font-family: 'Metamorphous', cursive;
+  color: white !important;
   font-size: 2em !important;
 }
 
 .navbar-default {
-  background-color: white !important;
+  background-color: #480048 !important;
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-family: 'Bad Script', cursive;
+  font-family: 'Metamorphous', cursive;
+  color: white !important;
 }
 
 .title {
   font-size: 6em;
-  top: 100px;
-  font-family: 'Bad Script', cursive;
+  /*font-family: 'Bad Script', cursive;*/
+  font-family: 'Fredericka the Great', cursive !important;
 }
 
-.title-2 {
-  font-size: 6em;
-  top: 100px;
-  right: -150px;
-  font-family: 'Bad Script', cursive;
+.for-hire {
+  font-size: 5em;
+  right: -350px;
+  font-family: 'Walter Turncoat', cursive;
+  color: #C04848;
+}
+
+/*ABOUT SECTION*/
+.glow {
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 1px 0px 20px white;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   /*transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+   text-align: center;
+   color: #601848;
+   font-family: 'Antic Didone, serif';
+}
+
+.shroud {
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: inherit;
+  top:0;
+  bottom:0;
+  left:0;
+  z-index: 1;
+}
+
+.about {
+  font-family: 'Handlee', cursive;
+}
+.hello {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
