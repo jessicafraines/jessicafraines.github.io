@@ -7,36 +7,85 @@
     <title>Jessica F Raines</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/scrolling-nav.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
-  <body>
-    <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
-          <button data-toggle="collapse" data-target="#bs-navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand">Jessica F Raines</a>
+        <div class="navbar-header page-scroll">
+          <button type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#page-top" class="navbar-brand page-scroll">Jessica F Raines</a>
         </div>
-        <div id="bs-navbar-collapse" class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse navbar-ex-1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#projects">Projects</a></li>
+            <li><a class="page-scroll" href="#contact">Contact Me</a></li>
             <li><a href="resume.html">Resume</a></li>
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
     <div class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container"><a id="email" class="fa fa-envelope-o fa-4x" href="mailto:jessicafraines@gmail.com">&nbsp;</a>
+      <div class="container">
+        <a class="fa fa-envelope-o fa-2x footer" href="mailto:jessicafraines@gmail.com">&nbsp;</a>
+        <a class="fa fa-linkedin-square fa-2x footer" href="http://www.linkedin.com/pub/jessica-r/28/33/644">&nbsp;</a>
+        <a class="fa fa-github fa-2x footer" href="https://github.com/jessicafraines/">&nbsp;</a>
+        <a class="fa fa-twitter fa-2x footer" href="https://twitter.com/jescafaith"></a>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <!--<div class="col-xs-4 col-xs-offset-4"><img class="jessica-img" src="img/jraines.JPG">-->
-        <div class="col-xs-6"><img src="http://blationnation.com/wp-content/uploads/2013/12/underconstruction.jpg">
+    <section id="intro" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <img class="jessica-img" src="img/jraines.JPG">
+          </div>
+          <div class="col-xs-1"></div>
+          <h3 class="col-xs-7 title">Software</h3>
+          <h3 class="col-xs-7 title-2">Developer</h3>
         </div>
-        <div class="col-xs-4"></div>
       </div>
-    </div>
+    </section>
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="about">This section is about me. ME ME ME!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="project">This section is about my projects. MINE MINE MINE!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="contact">This section is about how to contact me. ME ME ME!</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
   </body>
 </html>
 
+        <!--<div class="col-xs-6"><img src="http://blationnation.com/wp-content/uploads/2013/12/underconstruction.jpg">-->
