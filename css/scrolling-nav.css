@@ -43,16 +43,23 @@ html {
     background: #fff;
 }
 
-.projects-section {
+.skills-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-.contact-section {
+.projects-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
 }

@@ -22,7 +22,7 @@ img.jessica-img {
 }
 
 .navbar-default {
-  background-color: #480048 !important;
+  background-color: #300030 !important;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -78,4 +78,33 @@ img.jessica-img {
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+.skills-header {
+  font-size: 1.5em;
+}
+
+.skills-border {
+  border: 1px solid black;
+  background-color: #300030;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/*IMAGES*/
+
+.icons {
+  height: 22px;
+  width: 22px;
+  padding-right: 5px;
 }
