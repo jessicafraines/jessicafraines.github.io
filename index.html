@@ -114,28 +114,74 @@
         </div>
       </div>
     </section>
-    <section id="projects" class="projects-section" style="background-image:url(http://thedancebureau.com/pictures/coming-soon.png);background-repeat:no-repeat;background-position:center;">
+    <section id="projects" class="projects-section">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <p class="project"></p>
+            <div class="project-imgs">
+              <div>
+                <a href="https://github.com/jessicafraines/mommy-business-cohort-7"><img class="project" src="img/mb.png"></img></a>
+                <a href="https://github.com/jessicafraines/mommy-business-cohort-7"><img class="icons" src="https://civicio.files.wordpress.com/2013/03/github.png?w=256&h=256">Check out my repo</a>
+                <p>Final capstone project</p>
+              </div>
+              <div>
+                <a href="https://github.com/jessicafraines/weather-underground"><img class="project" src="img/weather.png"></img></a>
+                <a href="https://github.com/jessicafraines/weather-underground"><img class="icons" src="https://civicio.files.wordpress.com/2013/03/github.png?w=256&h=256">Check out my repo</a>
+                <p>TDD individual project</p>
+              </div>
+              <div>
+                <a href="https://github.com/jessicafraines/calculator-tdd"><img class="project" src="img/calc.png"></img></a>
+                <a href="https://github.com/jessicafraines/calculator-tdd"><img class="icons" src="https://civicio.files.wordpress.com/2013/03/github.png?w=256&h=256">Check out my repo</a>
+                <p>TDD group project with Jaclyn Pasquale</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="contact" class="contact-section" style="background-image:url(http://thedancebureau.com/pictures/coming-soon.png);background-repeat:no-repeat;background-position:center;">
+    <section id="contact" class="contact-section">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <p class="contact"></p>
+            <form id="contact-form" class="form" action="/" method="post">
+              <h3 class="contact">Contact me</h3>
+              <div>
+                <label>
+                  <span>Name: (required)</span>
+                  <input class="form" placeholder="name" type="text" tabindex="1" required autofocus>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Email:</span>
+                  <input class="form" placeholder="email address" type="email" tabindex="2">
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Telephone:</span>
+                  <input class="form" placeholder="phone number" type="tel" tabindex="3">
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Message:</span>
+                  <textarea class="form" placeholder="message" tabindex="5"></textarea>
+                </label>
+              </div>
+              <div>
+                <button name="submit" type="submit" id="contact-submit">Send Email</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
   </body>
 </html>
