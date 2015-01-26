@@ -51,6 +51,13 @@ img.jessica-img {
 }
 
 /*ABOUT SECTION*/
+.effect{
+  margin: 0;
+  padding: 40px;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+}
+
 .glow {
    -webkit-stroke-width: 5.3px;
    -webkit-stroke-color: #FFFFFF;
