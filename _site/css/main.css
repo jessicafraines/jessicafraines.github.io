@@ -1,32 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Bad+Script|Walter+Turncoat|Kaushan+Script|Handlee|Adamina|Metamorphous);
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
-img.jessica-img {
-  border: 3px solid white;
-  margin: 0 auto;
-}
- 
-.footer {
-  margin-top: .5em;
-  color: white;
-}
 
 /* NAVBAR */
-.navbar-fixed-bottom {
-  text-align: right;
-}
-
 .navbar-brand {
   font-family: 'Metamorphous', cursive;
   color: white !important;
   font-size: 2em !important;
-  text-shadow:
-  1px 1px 0 #CCC,
-  2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
-  3px 3px 0 #444,
-  4px 4px 0 #444,
-  5px 5px 0 #444,
-  6px 6px 0 #444; /* end of 4 level deep dark shadow */
 }
 
 .navbar-default {
@@ -39,44 +19,54 @@ img.jessica-img {
 }
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
-    top: 1px;
+  top: 1px;
 }
 
 .navbar-toggle .icon-bar:nth-of-type(3) {
-    top: 2px;
+  top: 2px;
 }
 
 .navbar-toggle .icon-bar {
-    position: relative;
-    transition: all 500ms ease-in-out;
+  position: relative;
+  transition: all 500ms ease-in-out;
 }
 
 .navbar-toggle.active .icon-bar:nth-of-type(2) {
-    top: 6px;
-    transform: rotate(45deg);
+  top: 6px;
+  transform: rotate(45deg);
 }
 
 .navbar-toggle.active .icon-bar:nth-of-type(3) {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-toggle.active .icon-bar:nth-of-type(4) {
-    top: -6px;
-    transform: rotate(-45deg);
+  top: -6px;
+  transform: rotate(-45deg);
 }
 
+.navbar-fixed-bottom {
+  text-align: right;
+}
 
+.footer {
+  margin-top: .5em;
+  color: white;
+}
 
-
-
-
-
+/* ABOUT SECTION */
 .title {
   font-size: 6em;
   /*font-family: 'Bad Script', cursive;*/
   font-family: 'Fredericka the Great', cursive !important;
+  color: #601848;
 }
 
+img.jessica-img {
+  border: 3px solid white;
+  margin: 0 auto;
+}
+ 
 .for-hire {
   font-size: 5em;
   right: -350px;
@@ -84,15 +74,14 @@ img.jessica-img {
   color: #C04848;
 }
 
-/*ABOUT SECTION*/
-.effect{
+/*.effect{
   margin: 0;
   padding: 40px;
   background-color: rgba(0,0,0,0.4);
   text-align: center;
-}
+}*/
 
-.glow {
+/*.glow {
    -webkit-stroke-width: 5.3px;
    -webkit-stroke-color: #FFFFFF;
    -webkit-fill-color: #FFFFFF;
@@ -100,13 +89,13 @@ img.jessica-img {
    -webkit-transition: width 0.3s; /*Safari & Chrome*/
    /*transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
-   -o-transition: width 0.3s; /* Opera */
-   text-align: center;
+  /* -o-transition: width 0.3s; /* Opera */
+  /* text-align: center;
    color: #601848;
    font-family: 'Antic Didone, serif';
-}
+}*/
 
-.shroud {
+/*.shroud {
   height: 100%;
   width: 100%;
   padding-top: 50px;
@@ -116,18 +105,20 @@ img.jessica-img {
   bottom:0;
   left:0;
   z-index: 1;
-}
+}*/
 
 .about {
   font-family: 'Handlee', cursive;
   color; black;
   font-size: 2em;
 }
-.hello {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+
+/* SKILLS */
+.intro-text {
+  font-family: 'Handlee', cursive;
+  color; black;
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 
 ul {
@@ -137,6 +128,12 @@ ul {
 
 li {
   padding-bottom: 5px;
+}
+
+.icons {
+  height: 22px;
+  width: 22px;
+  padding-right: 5px;
 }
 
 .skills-header {
@@ -152,6 +149,8 @@ li {
   width: 100%;
 }
 
+
+/* PROJECTS */
 .projects-border {
   border: 1px solid white;
   background-color: #300030;
@@ -159,26 +158,6 @@ li {
   text-align: center;
   border-radius: 5px;
   width: 100%;
-}
-
-
-/*IMAGES*/
-
-.icons {
-  height: 22px;
-  width: 22px;
-  padding-right: 5px;
-}
-
-
-
-@media screen and (max-width:40em) {
-  ul li{
-    width: 45%;
-    margin: 0;
-    float: left ;
-    clear: left;
-  }
 }
 
 .project {
@@ -193,53 +172,10 @@ li {
   display: inline-flex;
 }
 
-/* CONTACT FORM */
-
-#contact-form {
-  background-color: #300030;
+.white-background {
+  background-color: white;
 }
 
-label {
-  color: white;
+.project-title {
+  color: black;
 }
-
-.contact {
-  color: white;
-  padding-top: 20px;
-}
-* {
-  box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-}
-
-#contact-form input[type="text"],
-#contact-form input[type="email"],
-#contact-form input[type="tel"],
-#contact-form input[type="url"],
-#contact-form textarea {
-  width:100%;
-  box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-  -webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-  -moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-  border:1px solid #CCC;
-  margin:0 0 5px;
-  padding:10px;
-  border-radius:5px;
-  color: grey;
-}
-
-#contact-form button[type="submit"] {
-    cursor:pointer;
-    width:10%;
-    border:none;
-    background:#C04848;
-    background-image:linear-gradient(bottom, #C04848 0%, #C04848 52%);
-    background-image:-moz-linear-gradient(bottom, #C04848 0%, #C04848 52%);
-    background-image:-webkit-linear-gradient(bottom, #C04848 0%, #C04848 52%);
-    color:#FFF;
-    margin:0 0 5px;
-    padding:10px;
-    border-radius:5px;
-}
-
