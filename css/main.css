@@ -11,6 +11,7 @@ img.jessica-img {
   color: white;
 }
 
+/* NAVBAR */
 .navbar-fixed-bottom {
   text-align: right;
 }
@@ -36,6 +37,39 @@ img.jessica-img {
   font-family: 'Metamorphous', cursive;
   color: white !important;
 }
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
 
 .title {
   font-size: 6em;
@@ -152,6 +186,7 @@ li {
   width: 100%;
   padding: 20px;
   box-shadow: 0px 0px 5px #fff;
+  margin: 20px 0px 20px 0px;
 }
 
 .project-imgs {
