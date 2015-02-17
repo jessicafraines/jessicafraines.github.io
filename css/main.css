@@ -169,6 +169,7 @@ li {
   text-align: center;
   border-radius: 5px;
   width: 100%;
+  min-height: 270px !important;
 }
 
 .project {
