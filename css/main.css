@@ -46,6 +46,19 @@
   top: -6px;
   transform: rotate(-45deg);
 }
+.glow {
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 1px 0px 20px white;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+   text-align: center;
+   color: #601848;
+   font-family: 'Antic Didone, serif';
+}
 
 .navbar-fixed-bottom {
   text-align: right;
@@ -76,6 +89,8 @@
 img.jessica-img {
   border: 3px solid white;
   margin: 0 auto;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 5px;
 }
  
 .for-hire {
@@ -92,19 +107,6 @@ img.jessica-img {
   text-align: center;
 }*/
 
-/*.glow {
-   -webkit-stroke-width: 5.3px;
-   -webkit-stroke-color: #FFFFFF;
-   -webkit-fill-color: #FFFFFF;
-   text-shadow: 1px 0px 20px white;
-   -webkit-transition: width 0.3s; /*Safari & Chrome*/
-   /*transition: width 0.3s;
-   -moz-transition: width 0.3s; /* Firefox 4 */
-  /* -o-transition: width 0.3s; /* Opera */
-  /* text-align: center;
-   color: #601848;
-   font-family: 'Antic Didone, serif';
-}*/
 
 /*.shroud {
   height: 100%;
