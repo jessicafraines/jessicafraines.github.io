@@ -171,16 +171,18 @@ li {
   text-align: center;
   border-radius: 5px;
   width: 100%;
-  min-height: 296px !important;
+  min-height: 270px !important;
+  max-height: 270px !important;
 }
 
-html, body {
-    height: 100%
+.parent {
+  height: 100%;
+  width: 100%;
 }
 
 .project {
-  height: 180px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
   padding: 5px;
   box-shadow: 0px 0px 5px #fff;
   margin: 20px 0px 20px 0px;
