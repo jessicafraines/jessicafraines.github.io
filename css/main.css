@@ -98,7 +98,13 @@ img.jessica-img {
   right: -350px;
   font-family: 'Walter Turncoat', cursive;
   color: #C04848;
-  text-decoration: line-through;
+}
+
+.update {
+  font-size: 3em;
+  right: -350px;
+  font-family: 'Walter Turncoat', cursive;
+  color: #C04848;
 }
 
 /*.effect{
@@ -211,6 +217,7 @@ li {
   height: 5em;
   width: 5em;
   padding: 15px;
+  margin: -5px;
 }
 
 .icon-row {
